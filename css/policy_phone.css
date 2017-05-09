@@ -1,4 +1,136 @@
+@import "resize.css";
+html,body{
+    background: #fff;
+    width: 100%;
+}
 .policy_main{
-    background: pink;
-    height: 100px;
+    padding-bottom: .4rem;
+    background: #f4f4f4;
+}
+.policy_main .main_top{
+    background: #f4f4f4;
+    padding: .12rem 0 .12rem 0;
+}
+.policy_main .top{
+    display: flex;
+    align-items: center;
+    margin: .12rem .15rem 0;;
+    height: .6rem;
+    background: #fff;
+    -webkit-border-radius: .03rem;
+    -moz-border-radius: .03rem;
+    border-radius: .03rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 .26rem;
+    color: #adadad;
+}
+.policy_main .top img{
+    width: .32rem;
+    height: .31rem;
+    vertical-align: middle;
+}
+.policy_main .top input{
+    padding: 0 .1rem;
+    width: 6.5rem;
+    height: .33rem;
+    line-height: .33rem;
+    font-size: .24rem;
+}
+.policy_main .main{
+    background: #fff;
+}
+.policy_main .main .list{
+    background: #f4f4f4;
+}
+.policy_main .main .item{
+    background: #ffffff;
+}
+.policy_main .main .item:not(:first-child){
+    margin-top: .2rem;
+}
+.policy_main .main .title{
+    width: 7.5rem;
+    height: .96rem;
+    display: flex;
+    align-items: center;
+    padding-left: .16rem;
+    background: url(../images/policy/bg.png) no-repeat right top;
+    background-size: 4.7rem .95rem;
+}
+.policy_main .main .title .title_img{
+    width: .6rem;
+    height: .47rem;
+}
+.policy_main .main .title .desc{
+    margin-left: .1rem;
+    font-size: .32rem;
+    font-weight: 900;
+}
+.policy_main .main .mainWrap{
+    position: relative;
+    margin: 0 .15rem;
+    padding-bottom: .22rem;
+}
+.policy_main .main .mainWrap .book{
+    position: absolute;
+    bottom: .2rem;
+    right: .18rem;
+    width: 1.7rem;
+    height: 1.1rem;
+}
+.policy_main .items_title{
+    overflow: hidden;
+    padding: 0 .17rem;
+    height: .74rem;
+    line-height: .74rem;
+    background: -webkit-linear-gradient(left,#3799f4, #72befe);
+    background: linear-gradient(left,#3799f4, #72befe);
+    -webkit-border-radius: .03rem .03rem 0 0;
+    border-radius: .03rem .03rem 0 0;
+}
+.policy_main .items_title .w_01{
+    width: .13rem;
+    height: .16rem;
+    vertical-align: 0.03rem;
+}
+.policy_main .items_title .w_03{
+    width: .12rem;
+    height: .23rem;
+    vertical-align: -.02rem;
+}
+.policy_main .items_title .text{
+    display: inline-block;
+    font-size: .28rem;
+    color: #fff;
+    margin-left: .1rem;
+}
+.policy_main .items_title .more{
+    font-size: .24rem;
+    color: #ff7112;
+    margin-right: .1rem;
+}
+.policy_main .items{
+    padding: .17rem 0 .22rem .3rem;
+    background: #f4f8fb;
+}
+.policy_main .items{
+    padding-top: .17rem;
+}
+.policy_main .detail{
+    position: relative;
+    line-height: .65rem;
+    font-size: .28rem;
+    color: #7b7d7e;
+}
+.policy_main .detail:before{
+    content: '';
+    display: inline-block;
+    margin-right: .15rem;
+    width: .1rem;
+    height: .1rem;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #a8cfeb;
+    vertical-align: .03rem;
 }
