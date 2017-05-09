@@ -41,6 +41,7 @@ html,body{
     background: transparent;
     outline: 0;
     border: none 0;
+    -webkit-appearance: none;
 }
 .policy_main .main{
     background: #fff;
