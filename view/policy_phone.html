@@ -116,10 +116,26 @@
             </li>
         </ul>
     </div>
+    <img src="../images/policy/radius_03.png" id="toTop"/>
 </div>
 <script>
-    $('#form').tap(function(){
-        
+    var $toTop = $('#toTop');
+    var timer = null;
+    var duration = 300;
+    var speed = null;
+    $toTop.tap(function(){
+        window.clearInterval(timer);
+        timer = window.setInterval(function (){
+            var curScrollTop = document.documentElement.scrollTop||document.body.scrollTop;
+            speed = curScrollTop/duration*20;
+            if(curScrollTop <= 0){
+                window.clearInterval(timer);
+                return;
+            }
+            curScrollTop -= speed;
+            document.documentElement.scrollTop = curScrollTop;
+            document.body.scrollTop = curScrollTop;
+        },10)
     })
 </script>
 </body>
