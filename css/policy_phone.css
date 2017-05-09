@@ -117,7 +117,7 @@ html,body{
     margin-right: .1rem;
 }
 .policy_main .items{
-    padding: .17rem 0 .22rem .3rem;
+    padding: .17rem 0 .22rem .36rem;
     background: #f4f8fb;
 }
 .policy_main .items{
@@ -138,5 +138,5 @@ html,body{
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #a8cfeb;
-    vertical-align: .03rem;
+    vertical-align: .06rem;
 }
