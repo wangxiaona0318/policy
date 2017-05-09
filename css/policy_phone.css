@@ -36,6 +36,7 @@ html,body{
     height: .33rem;
     line-height: .33rem;
     font-size: .24rem;
+    -webkit-tap-highlight-color:transparent;
     background: transparent;
     outline: 0;
     border: none 0;
