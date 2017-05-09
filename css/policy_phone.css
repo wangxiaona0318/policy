@@ -37,6 +37,8 @@ html,body{
     line-height: .33rem;
     font-size: .24rem;
     background: transparent;
+    outline: 0;
+    border: none 0;
 }
 .policy_main .main{
     background: #fff;
