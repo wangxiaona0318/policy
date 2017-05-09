@@ -128,8 +128,12 @@ html,body{
     line-height: .65rem;
     font-size: .28rem;
     color: #7b7d7e;
+    padding-left: .26rem;
 }
 .policy_main .detail:before{
+    position: absolute;
+    top: .14rem;
+    left: 0;
     content: '';
     display: inline-block;
     margin-right: .15rem;
